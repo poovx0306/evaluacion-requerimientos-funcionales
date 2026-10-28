@@ -1,14 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <meta charset="utf-8">
         <title>Requerimientos</title>
     </head>
     <body>
-        
-        <button id="evaluaciom" onclick="evaluacion()">Evaluar</button>
+        <h1>Requerimiento</h1>
 
+        <textarea id="requerimiento" rows="12" cols="60"></textarea>
+        <br>
+        <button id="evaluacion" onclick="evaluacion()">Evaluación</button>
+        <br>
 
+        <label for="condicion">Condición</label>
+        <input type="text" id="condicion" readonly>
+        <br>
+        <label for="sujeto">Sujeto</label>
+        <input type="text" id="sujeto" readonly>
+        <br>
+        <label for="verbo">Verbo</label>
+        <input type="text" id="verbo" readonly>
+        <br>
+        <label for="accion">Acción</label>
+        <input type="text" id="accion" readonly>
+        <br>
+        <label for="objeto">Objeto</label>
+        <input type="text" id="objeto" readonly>
+        <br>
+        <label for="criterio">Criterio</label>
+        <input type="text" id="criterio" readonly>
 
         <script src="static/js/scipt.js"></script>
     </body>
